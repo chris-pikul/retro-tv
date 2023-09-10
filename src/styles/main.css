@@ -2,8 +2,8 @@
 
 html {
     width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+    min-height: 100vh;
+    overflow-x: hidden;
 }
 
 body {
@@ -12,8 +12,34 @@ body {
     font-size: 15px;
     font-family: sans-serif;
     line-height: 1.25em;
+    background: #110f0c;
+    color: #dad6c4;
 }
 
 body * {
     box-sizing: border-box;
+}
+
+a, a:visited {
+    color: inherit;
+}
+
+main {
+    width: 100vw;
+    aspect-ratio: 16 / 9;
+    background-color: black;
+}
+
+header {
+    padding: 5em;
+}
+
+h1 {
+    margin-bottom: 1em;
+    font-size: 2rem;
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
